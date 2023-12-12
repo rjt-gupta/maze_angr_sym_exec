@@ -27,9 +27,9 @@ def main():
     # Create a simulation manager
     simgr = project.factory.simulation_manager(state)
 
-    simgr.explore(find=is_successful, avoid=to_avoid)
-
     print("\n\nExploring the Maze ... \n")
+    
+    simgr.explore(find=is_successful, avoid=to_avoid)
 
     # If we found a successful state, print the input that leads to it
     if simgr.found:
