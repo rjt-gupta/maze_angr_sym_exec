@@ -5,3 +5,7 @@
 maze.c : C code simulating a maze
 
 solve.py: Angr symbolic analysis that finds the solution of the maze binary
+
+## How to Run
+
+`python solve.py`
